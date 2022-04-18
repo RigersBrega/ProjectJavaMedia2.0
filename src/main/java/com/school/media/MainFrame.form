@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScrollPane1" pref="1256" max="32767" attributes="0"/>
+                  <Component id="jLayeredPane1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="usingField" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="InputPanel" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="usingField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="373" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="InputPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLayeredPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="List of Media"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="EbookInputPanel" alignment="0" pref="1256" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+                  <Component id="MusicInputPanel" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+                  <Component id="VideoInputPanel" alignment="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="156" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="EbookInputPanel" alignment="1" pref="156" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+                  <Component id="MusicInputPanel" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+                  <Component id="VideoInputPanel" alignment="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="VideoInputPanel">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="VideoInputlabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="VideoFileNameText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VideoFileTypeText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VideoSizeText" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="VideoFileNameValue" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="VideoFileTypeValue" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="VideoSizeValue" alignment="0" pref="142" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="VideoAuthorText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VideoTitleText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VideoLengthText" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="VideoLengthValue" alignment="0" pref="163" max="32767" attributes="0"/>
+                                  <Component id="VideoAuthorValue" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="VideoTitleValue" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="VideoQualityText" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="VideoGenreText" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="VideoGenreValue" max="32767" attributes="0"/>
+                          <Component id="VideoQualityValue" pref="162" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="VideoInputlabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="VideoFileNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="VideoFileNameValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="VideoAuthorText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="VideoAuthorValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="VideoQualityText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="VideoQualityValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="VideoGenreText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="VideoGenreValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="VideoFileTypeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="VideoFileTypeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="VideoTitleText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="VideoTitleValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="VideoSizeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="VideoSizeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="VideoLengthText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="VideoLengthValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="44" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="VideoInputlabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Video Input Area"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="VideoFileNameValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="VideoFileNameText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="VideoFileTypeValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="VideoFileTypeText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="VideoSizeValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="VideoSizeText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Size (Int)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="VideoAuthorValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="VideoAuthorText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Author"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="VideoTitleValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="VideoTitleText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Title"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="VideoLengthValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="VideoLengthText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Length"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="VideoQualityValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="VideoQualityText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quality (Int)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="VideoGenreValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="VideoGenreText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Genre"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="MusicInputPanel">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="MusicInputlabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="MusicFileNameText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MusicFileTypeText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MusicSizeText" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="MusicFileNameValue" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="MusicFileTypeValue" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="MusicSizeValue" alignment="0" pref="142" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="MusicAuthorText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MusicTitleText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MusicLengthText" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="MusicLengthValue" alignment="0" pref="165" max="32767" attributes="0"/>
+                                  <Component id="MusicAuthorValue" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="MusicTitleValue" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="MusicFeaturedText" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="MusicGenreText" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="MusicBItrateText" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="MusicBitrateValue" max="32767" attributes="0"/>
+                          <Component id="MusicGenreValue" max="32767" attributes="0"/>
+                          <Component id="MusicFeaturedValue" pref="164" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="MusicInputlabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MusicFileNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MusicFileNameValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MusicAuthorText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MusicAuthorValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MusicBItrateText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MusicBitrateValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="MusicFeaturedText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MusicFeaturedValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MusicFileTypeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MusicFileTypeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MusicTitleText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MusicTitleValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="MusicGenreText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MusicGenreValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MusicSizeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MusicSizeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MusicLengthText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MusicLengthValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="44" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="MusicInputlabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Music Input Area"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="MusicFileNameValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="MusicFileNameText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="MusicFileTypeValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="MusicFileTypeText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="MusicSizeValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="MusicSizeText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Size (Int)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="MusicAuthorValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="MusicAuthorText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Author"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="MusicTitleValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="MusicTitleText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Title"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="MusicLengthValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="MusicLengthText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Length"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="MusicBitrateValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="MusicBItrateText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Bitrate (Int)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="MusicFeaturedValue">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MusicFeaturedValueActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="MusicFeaturedText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Featured"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="MusicGenreValue">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MusicGenreValueActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="MusicGenreText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Genre"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="EbookInputPanel">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[678, 147]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="EbookInputlabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="EbookFileNameText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EbookFileTypeText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EbookSizeText" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="EbookFileNameValue" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="EbookFileTypeValue" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="EbookSizeValue" alignment="0" pref="142" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="EbookAuthorText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EbookTitleText" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EbookPagesText" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="EbookPagesValue" alignment="0" pref="163" max="32767" attributes="0"/>
+                                  <Component id="EbookAuthorValue" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="EbookTitleValue" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="EbookGenreText" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="EbookGenreValue" pref="163" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="EbookInputlabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="EbookFileNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookFileNameValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookAuthorText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookAuthorValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookGenreText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookGenreValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="EbookFileTypeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookFileTypeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookTitleText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookTitleValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="EbookSizeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookSizeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookPagesText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EbookPagesValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="EbookInputlabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ebook Input Area"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="EbookFileNameValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="EbookFileNameText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="EbookFileTypeValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="EbookFileTypeText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="EbookSizeValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="EbookSizeText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Size (Int)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="EbookAuthorValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="EbookAuthorText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Author"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="EbookTitleValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="EbookTitleText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Title"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="EbookPagesValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="EbookPagesText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pages (Int)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="EbookGenreValue">
+            </Component>
+            <Component class="javax.swing.JLabel" name="EbookGenreText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Genre"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="InputPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ObjectCount" min="-2" pref="52" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                  <Component id="responseField" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="1041" max="32767" attributes="0"/>
+                                  <Component id="MediaTypeCB" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="insertButton" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="useFile" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="useDatabase" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ObjectCount" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MediaTypeCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="insertButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="responseField" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="useFile" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="useDatabase" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="insertButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Insert Media"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="insertButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="MediaTypeCB">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Ebook"/>
+                <StringItem index="1" value="Music"/>
+                <StringItem index="2" value="Video"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="MediaTypeCBItemStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nr of objects"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ObjectCount">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="responseField">
+        </Component>
+        <Component class="javax.swing.JButton" name="useFile">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Use TextFile"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="useFileActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="useDatabase">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Use Database"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="useDatabaseActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="ObjectTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="12" rowCount="0">
+                <Column editable="false" title="ObjectType" type="java.lang.String"/>
+                <Column editable="false" title="File Name" type="java.lang.String"/>
+                <Column editable="false" title="File Type" type="java.lang.String"/>
+                <Column editable="false" title="Size" type="java.lang.Integer"/>
+                <Column editable="false" title="Author" type="java.lang.String"/>
+                <Column editable="false" title="Title" type="java.lang.String"/>
+                <Column editable="false" title="Length" type="java.lang.String"/>
+                <Column editable="false" title="Pages" type="java.lang.String"/>
+                <Column editable="false" title="Genre" type="java.lang.String"/>
+                <Column editable="false" title="Artists" type="java.lang.String"/>
+                <Column editable="false" title="VideoQ" type="java.lang.Integer"/>
+                <Column editable="false" title="Bitrate" type="java.lang.Integer"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="usingField">
+    </Component>
+  </SubComponents>
+</Form>
